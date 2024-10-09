@@ -50,18 +50,15 @@ function initEventListeners() {
         toggleButton.classList.add('toggle-odds-btn');
         toggleButton.innerText = 'Show Odds';
         toggleButton.addEventListener('click', toggleOdds);
-        
-        // Prepend button to event element
+      
         eventElement.insertBefore(toggleButton, eventElement.firstChild);
     });
 }
 
-// Function to execute when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     initEventListeners();
 });
 
-// Optional: Smooth scrolling for anchor links
 const scrollLinks = document.querySelectorAll('a[href^="#"]');
 for (let link of scrollLinks) {
     link.addEventListener('click', function(e) {
