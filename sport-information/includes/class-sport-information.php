@@ -179,7 +179,7 @@ class Sport_Information {
 		$display_sport = new Sport_Information_Display();
 
 		$this->loader->add_shortcode('ds_short', $display_sport, 'display_sport_info');
-        $this->loader->add_shortcode('Upcoming_Sports_Odds', $display_sport, 'display_sport_info');
+                $this->loader->add_shortcode('Upcoming_Sports_Odds', $display_sport, 'display_sport_info');
 		$this->loader->add_shortcode('ds_latest_news', $display_sport, 'display_sport_info');
 		$this->loader->add_shortcode('ds_betting_odds', $display_sport, 'display_sport_info');
 		
