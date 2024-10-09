@@ -1,0 +1,78 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.event {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.event h3 {
+    font-size: 1.5em;
+    color: skyblue;
+    margin: 0 0 10px;
+}
+
+.event p {
+    margin: 5px 0;
+    line-height: 1.5;
+    color: grey;
+}
+
+.event p:last-child {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 10px 0;
+}
+
+ul li {
+    background-color: grey;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    color: #333;
+}
+
+ul li span {
+    font-weight: bold;
+}
+
+ul li:before {
+    content: 'Odds for ';
+    font-weight: bold;
+    color: skyblue;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .event {
+        padding: 10px;
+    }
+
+    .event h3 {
+        font-size: 1.3em;
+    }
+}
