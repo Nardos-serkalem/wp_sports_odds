@@ -1,6 +1,6 @@
 # Sports Betting Odds Plugin
 
-Description
+#Description
 This WordPress plugin allows you to display upcoming sports odds, including various sports events, teams, and betting odds from different bookmakers. The plugin is designed to enhance the user experience for sports enthusiasts and bettors by providing easy access to real-time betting odds and information.
 
 ## Features
